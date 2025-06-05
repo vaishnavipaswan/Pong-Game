@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(135deg, #151e30 0%, #283e51 100%);
+    color: #f5f7fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 18px;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, #33c3ff, #ff5c93 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    text-shadow: 0 2px 4px #0005;
+}
+
+#pong {
+    background: linear-gradient(120deg, #1b2838 0%, #212c3b 100%);
+    box-shadow: 0 8px 40px #000a, 0 2px 8px #0005;
+    border: 3px solid #53e6ff;
+    border-radius: 18px;
+    display: block;
+    margin: 20px auto 0 auto;
+    outline: none;
+    transition: box-shadow 0.2s;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.35rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    gap: 48px;
+}
+
+.score {
+    background: rgba(33, 195, 255, 0.18);
+    box-shadow: 0 2px 8px #0002;
+    border-radius: 12px;
+    padding: 8px 30px;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+    min-width: 60px;
+    text-align: center;
+}
+
+.player-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #53e6ff;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.ai-label {
+    color: #ff5c93;
+}
+
+@media (max-width: 850px) {
+    #pong {
+        width: 98vw !important;
+        height: 60vw !important;
+        max-width: 98vw;
+        max-height: 60vw;
+    }
+}
