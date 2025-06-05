@@ -17,7 +17,7 @@ A browser-based Pong game built with HTML5, CSS3, and JavaScript.
 
 ## Preview
 
-![Screenshot](./screenshot.png)
+![Screenshot](https://github.com/vaishnavipaswan/Pong-Game/blob/c1319be8feb70d045f0e4fb928dc0fdbc0e8f974/screenshot.png)
 
 ---
 
